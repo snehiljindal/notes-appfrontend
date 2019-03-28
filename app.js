@@ -2,7 +2,7 @@ let modal = angular.module('modal',['ngRoute','ngAnimate']);
 
 modal.config(['$routeProvider', '$locationProvider',function($routeProvider,$locationProvider){
 
-        $locationProvider.html5Mode(true)
+        //$locationProvider.html5Mode(true)
         $routeProvider
                 .when('/home', {
                         templateUrl:'views/home.html',
